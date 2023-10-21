@@ -1,0 +1,234 @@
+ {
+    "user": {
+        "userID": "john_doe_123",
+        "email": "john.doe@example.com",
+        "bookings": [
+            {
+                "bookingReference": "ref_1_0",
+                "flightDetails": {
+                    "departure": "Phoenix",
+                    "destination": "San Diego",
+                    "flightNumber": "LH530",
+                    "date": "2023-11-26T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 239.12616063805322,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_1",
+                "flightDetails": {
+                    "departure": "San Diego",
+                    "destination": "Dallas",
+                    "flightNumber": "LH152",
+                    "date": "2023-11-04T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 744.4932565410529,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_2",
+                "flightDetails": {
+                    "departure": "San Diego",
+                    "destination": "Philadelphia",
+                    "flightNumber": "LH855",
+                    "date": "2023-12-07T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 357.70506503569817,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_3",
+                "flightDetails": {
+                    "departure": "San Diego",
+                    "destination": "Houston",
+                    "flightNumber": "LH268",
+                    "date": "2023-11-17T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 117.13329055710891,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_4",
+                "flightDetails": {
+                    "departure": "New York",
+                    "destination": "San Jose",
+                    "flightNumber": "LH106",
+                    "date": "2023-11-08T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 823.4828751606719,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_5",
+                "flightDetails": {
+                    "departure": "Dallas",
+                    "destination": "Houston",
+                    "flightNumber": "LH118",
+                    "date": "2024-01-05T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 741.6687847555861,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_6",
+                "flightDetails": {
+                    "departure": "Chicago",
+                    "destination": "Dallas",
+                    "flightNumber": "LH578",
+                    "date": "2023-11-17T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 194.13227225642927,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_7",
+                "flightDetails": {
+                    "departure": "Phoenix",
+                    "destination": "Philadelphia",
+                    "flightNumber": "LH238",
+                    "date": "2024-03-21T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 236.62960316801264,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_8",
+                "flightDetails": {
+                    "departure": "Phoenix",
+                    "destination": "San Antonio",
+                    "flightNumber": "LH507",
+                    "date": "2024-02-28T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 438.48805824743505,
+                    "currency": "USD"
+                }
+            },
+            {
+                "bookingReference": "ref_1_9",
+                "flightDetails": {
+                    "departure": "Chicago",
+                    "destination": "Philadelphia",
+                    "flightNumber": "LH397",
+                    "date": "2023-11-25T21:11:18Z"
+                },
+                "paymentInfo": {
+                    "amount": 612.3849213549873,
+                    "currency": "USD"
+                }
+            }
+        ],
+        "rewards": {
+            "points": 2500,
+            "status": "Platinum",
+            "discounts": [
+                {
+                    "description": "20% off on your next booking. Code: SAVE20",
+                    "code": "SAVE20"
+                },
+                {
+                    "description": "Enjoy complimentary lounge access on your next trip. Code: LOUNGEFREE",
+                    "code": "LOUNGEFREE"
+                }
+            ],
+            "promotions": [
+                {
+                    "description": "Earn double points on flights to Europe this summer.",
+                    "validity": "2023-08-31T23:59:59Z"
+                },
+                {
+                    "description": "Book a flight and get a chance to win a free upgrade to business class.",
+                    "validity": "2023-12-31T23:59:59Z"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "eventID": "event_1_0",
+            "eventType": "Flight Check-in",
+            "timestamp": "2023-10-21T21:11:18Z",
+            "bookingReference": "ref_1_0",
+            "details": "You've successfully checked in for your flight. Have a great trip!"
+        },
+        {
+            "eventID": "event_1_1",
+            "eventType": "Flight Check-in",
+            "timestamp": "2024-02-18T21:11:18Z",
+            "bookingReference": "ref_1_1",
+            "details": "You've successfully checked in for your flight. Have a great trip!"
+        },
+        {
+            "eventID": "event_1_2",
+            "eventType": "Booking Confirmed",
+            "timestamp": "2023-11-02T21:11:18Z",
+            "bookingReference": "ref_1_2",
+            "details": "Your booking has been confirmed! Get ready for your journey."
+        },
+        {
+            "eventID": "event_1_3",
+            "eventType": "Booking Confirmed",
+            "timestamp": "2024-02-11T21:11:18Z",
+            "bookingReference": "ref_1_3",
+            "details": "Your booking has been confirmed! Get ready for your journey."
+        },
+        {
+            "eventID": "event_1_4",
+            "eventType": "Flight Canceled",
+            "timestamp": "2023-11-15T21:11:18Z",
+            "bookingReference": "ref_1_4",
+            "details": "Unfortunately, your flight has been canceled due to operational reasons."
+        },
+        {
+            "eventID": "event_1_5",
+            "eventType": "Flight Check-in",
+            "timestamp": "2023-12-28T21:11:18Z",
+            "bookingReference": "ref_1_5",
+            "details": "You've successfully checked in for your flight. Have a great trip!"
+        },
+        {
+            "eventID": "event_1_6",
+            "eventType": "Flight Check-in",
+            "timestamp": "2024-03-05T21:11:18Z",
+            "bookingReference": "ref_1_6",
+            "details": "You've successfully checked in for your flight. Have a great trip!"
+        },
+        {
+            "eventID": "event_1_7",
+            "eventType": "Flight Canceled",
+            "timestamp": "2024-01-28T21:11:18Z",
+            "bookingReference": "ref_1_7",
+            "details": "Unfortunately, your flight has been canceled due to operational reasons."
+        },
+        {
+            "eventID": "event_1_8",
+            "eventType": "Flight Check-in",
+            "timestamp": "2024-01-14T21:11:18Z",
+            "bookingReference": "ref_1_8",
+            "details": "You've successfully checked in for your flight. Have a great trip!"
+        },
+        {
+            "eventID": "event_1_9",
+            "eventType": "Flight Canceled",
+            "timestamp": "2024-02-29T21:11:18Z",
+            "bookingReference": "ref_1_9",
+            "details": "Unfortunately, your flight has been canceled due to bad weather."
+        }
+    ]
+}
